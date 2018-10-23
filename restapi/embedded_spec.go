@@ -29,8 +29,8 @@ func init() {
   ],
   "swagger": "2.0",
   "info": {
-    "description": "From the todo list tutorial on goswagger.io",
-    "title": "A Todo list application",
+    "description": "The product of a tutorial on goswagger.io",
+    "title": "A To Do list application",
     "version": "1.0.0"
   },
   "paths": {
@@ -39,6 +39,7 @@ func init() {
         "tags": [
           "todos"
         ],
+        "operationId": "findTodos",
         "parameters": [
           {
             "type": "integer",
@@ -137,15 +138,6 @@ func init() {
           "todos"
         ],
         "operationId": "destroyOne",
-        "parameters": [
-          {
-            "type": "integer",
-            "format": "int64",
-            "name": "id",
-            "in": "path",
-            "required": true
-          }
-        ],
         "responses": {
           "204": {
             "description": "Deleted"
@@ -219,8 +211,8 @@ func init() {
   ],
   "swagger": "2.0",
   "info": {
-    "description": "From the todo list tutorial on goswagger.io",
-    "title": "A Todo list application",
+    "description": "The product of a tutorial on goswagger.io",
+    "title": "A To Do list application",
     "version": "1.0.0"
   },
   "paths": {
@@ -229,6 +221,7 @@ func init() {
         "tags": [
           "todos"
         ],
+        "operationId": "findTodos",
         "parameters": [
           {
             "type": "integer",
@@ -327,15 +320,6 @@ func init() {
           "todos"
         ],
         "operationId": "destroyOne",
-        "parameters": [
-          {
-            "type": "integer",
-            "format": "int64",
-            "name": "id",
-            "in": "path",
-            "required": true
-          }
-        ],
         "responses": {
           "204": {
             "description": "Deleted"

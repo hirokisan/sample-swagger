@@ -28,8 +28,8 @@ func main() {
 	defer server.Shutdown()
 
 	parser := flags.NewParser(server, flags.Default)
-	parser.ShortDescription = "A Todo list application"
-	parser.LongDescription = "From the todo list tutorial on goswagger.io"
+	parser.ShortDescription = "A To Do list application"
+	parser.LongDescription = "The product of a tutorial on goswagger.io"
 
 	server.ConfigureFlags()
 	for _, optsGroup := range api.CommandLineOptionsGroups {
