@@ -13,9 +13,9 @@ import (
 	middleware "github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
 
-	"sample-swagger/models"
-	"sample-swagger/restapi/operations"
-	"sample-swagger/restapi/operations/todos"
+	"github.com/hirokisan/sample-swagger/models"
+	"github.com/hirokisan/sample-swagger/restapi/operations"
+	"github.com/hirokisan/sample-swagger/restapi/operations/todos"
 )
 
 //go:generate swagger generate server --target .. --name TodoList --spec ../swagger.yml

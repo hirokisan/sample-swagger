@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"sample-swagger/restapi"
-	"sample-swagger/restapi/operations"
+	"github.com/hirokisan/sample-swagger/restapi"
+	"github.com/hirokisan/sample-swagger/restapi/operations"
 
 	loads "github.com/go-openapi/loads"
 	flags "github.com/jessevdk/go-flags"
